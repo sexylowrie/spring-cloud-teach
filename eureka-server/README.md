@@ -38,7 +38,7 @@
 	http://${eureka.instance.hostname}:8081/eureka/
 
 
-*  开启security配置,配置用户名以及密码
+*  开启security配置,配置用户名以及密码（需要引入security相关jar包）
 
 	security.basic.enabled=true
 	security.user.name=apollo
