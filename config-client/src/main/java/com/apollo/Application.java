@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 /**
- *  ÅäÖÃÖĞĞÄ¿Í»§¶ËÓ¦ÓÃÊ¾Àı
+ *  é…ç½®ä¸­å¿ƒå®¢æˆ·ç«¯ç¤ºä¾‹
  * @author ce.sun
  *
  */

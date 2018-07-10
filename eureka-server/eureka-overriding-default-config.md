@@ -1,30 +1,30 @@
-###EurekaÌá¹©ÁËÄÚÖÃµÄÄ¬ÈÏÉèÖÃ¡£
+###Eurekaæä¾›äº†å†…ç½®çš„é»˜è®¤è®¾ç½®ã€‚
 
-Ä¬ÈÏÅäÖÃ£¬ÊÊÓÃÓÚ´ó¶àÊı³¡¾°£»Äú¿ÉÒÔÊ¹ÓÃÈÎºÎÄúÏëÒªµÄ»úÖÆÀ©Õ¹ÒÔÏÂÄ¬ÈÏÅäÖÃÀà£¬ÒÔÌá¹©Äú×Ô¼ºµÄÅäÖÃÖµ¡£ **×¢Òâ:Çë²»ÒªÊ¹ÓÃÕâĞ©½Ó¿Ú **£¬ËüÃÇÖ»ÊÇÓÃÓÚÎÄµµÄ¿µÄ£¬½«À´¿ÉÄÜ»á¸Ä±ä
+é»˜è®¤é…ç½®ï¼Œé€‚ç”¨äºå¤§å¤šæ•°åœºæ™¯ï¼›æ‚¨å¯ä»¥ä½¿ç”¨ä»»ä½•æ‚¨æƒ³è¦çš„æœºåˆ¶æ‰©å±•ä»¥ä¸‹é»˜è®¤é…ç½®ç±»ï¼Œä»¥æä¾›æ‚¨è‡ªå·±çš„é…ç½®å€¼ã€‚ **æ³¨æ„:è¯·ä¸è¦ä½¿ç”¨è¿™äº›æ¥å£ **ï¼Œå®ƒä»¬åªæ˜¯ç”¨äºæ–‡æ¡£ç›®çš„ï¼Œå°†æ¥å¯èƒ½ä¼šæ”¹å˜
 
-* [CloudÅäÖÃ](https://github.com/netflix/eureka/blob/master/eureka - client/src/main/java/java/java/java/com/netflix/appflix/appinfo/appinfo/index.java)
+* [Cloudé…ç½®](https://github.com/netflix/eureka/blob/master/eureka - client/src/main/java/java/java/java/com/netflix/appflix/appinfo/appinfo/index.java)
 		
 		
-* [Eureka¿Í»§¶Ë](https://github.com/Netflix/eureka/blob/master/eureka-client/src/main/java/com/netflix/discovery/DefaultEurekaClientConfig.java)
+* [Eurekaå®¢æˆ·ç«¯](https://github.com/Netflix/eureka/blob/master/eureka-client/src/main/java/com/netflix/discovery/DefaultEurekaClientConfig.java)
 
 
-* [Eureka·şÎñ¶Ë](https://github.com/Netflix/eureka/blob/master/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java)
+* [EurekaæœåŠ¡ç«¯](https://github.com/Netflix/eureka/blob/master/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java)
 
-Çë×¢Òâ£¬ÉÏÃæµÄÄÚÈİ»¹×÷ÎªEurekaÖĞËùÓĞÉÏÊöÅäÖÃµÄÄ¬ÈÏÅäÖÃÖµµÄÎÄµµ¡£
+è¯·æ³¨æ„ï¼Œä¸Šé¢çš„å†…å®¹è¿˜ä½œä¸ºEurekaä¸­æ‰€æœ‰ä¸Šè¿°é…ç½®çš„é»˜è®¤é…ç½®å€¼çš„æ–‡æ¡£ã€‚
 
-###×Ô¶¨Òå×¢²áĞÅÏ¢
+###è‡ªå®šä¹‰æ³¨å†Œä¿¡æ¯
 
-ÓĞÊ±£¬Äú¿ÉÄÜÏëÒªÎª×¢²áºÍ²éÑ¯Ìí¼ÓÌØ¶¨ÓÚ²¿Êğ»·¾³µÄ×Ô¶¨ÒåÔªÊı¾İ¡£ÀıÈç£¬Äú¿ÉÄÜÏëÒª´«²¥Ò»¸ö¶¨ÖÆµÄ»·¾³id£¬¸Ãid¶ÔÓÚÄúµÄÌØ¶¨²¿ÊğenvÓ¦¸ÃÊÇ¿ÉÓÃµÄ¡£EurekaÌá¹©ÁËÌí¼Ó×Ô¶¨ÒåÔªÊı¾İ×÷Îª¼üµÄÄÜÁ¦:±ê×¼×¢²áÊı¾İÖ®ÍâµÄÖµ¶Ô¡£Äã¿ÉÒÔÓÃÁ½ÖÖ·½·¨×öµ½:
+æœ‰æ—¶ï¼Œæ‚¨å¯èƒ½æƒ³è¦ä¸ºæ³¨å†Œå’ŒæŸ¥è¯¢æ·»åŠ ç‰¹å®šäºéƒ¨ç½²ç¯å¢ƒçš„è‡ªå®šä¹‰å…ƒæ•°æ®ã€‚ä¾‹å¦‚ï¼Œæ‚¨å¯èƒ½æƒ³è¦ä¼ æ’­ä¸€ä¸ªå®šåˆ¶çš„ç¯å¢ƒidï¼Œè¯¥idå¯¹äºæ‚¨çš„ç‰¹å®šéƒ¨ç½²envåº”è¯¥æ˜¯å¯ç”¨çš„ã€‚Eurekaæä¾›äº†æ·»åŠ è‡ªå®šä¹‰å…ƒæ•°æ®ä½œä¸ºé”®çš„èƒ½åŠ›:æ ‡å‡†æ³¨å†Œæ•°æ®ä¹‹å¤–çš„å€¼å¯¹ã€‚ä½ å¯ä»¥ç”¨ä¸¤ç§æ–¹æ³•åšåˆ°:
 
-*   »ñÈ¡ÅäÖÃÊı¾İ
+*   è·å–é…ç½®æ•°æ®
 
 	String myValue = instanceInfo.getMetadata().get("myKey");
 
-* Í¨¹ıÅäÖÃ¾²Ì¬ÉèÖÃ:
+* é€šè¿‡é…ç½®é™æ€è®¾ç½®:
 
-	eureka.metadata.mykey=myvalue ½«¼üÖµ¶ÔÌí¼Óµ½eurekaµÄMetadataÖĞ¡£
+	eureka.metadata.mykey=myvalue å°†é”®å€¼å¯¹æ·»åŠ åˆ°eurekaçš„Metadataä¸­ã€‚
 
-Í¨¹ı´úÂë¶¯Ì¬ÉèÖÃ:
+é€šè¿‡ä»£ç åŠ¨æ€è®¾ç½®:
 
-Òª¶¯Ì¬µØ×öµ½ÕâÒ»µã£¬ÄúÊ×ÏÈĞèÒªÌá¹©Äú×Ô¼ºµÄ×Ô¶¨ÒåÊµÏÖ[EurekaInstanceConfig](https://github.com/Netflix/eureka/blob/master/eureka-client/src/main/java/com/netflix/appinfo/EurekaInstanceConfig.java)½Ó¿Ú¡£È»ºó¿ÉÒÔÖØÔØpublic Map<String, String> getMetadataMap()·½·¨£¬ÒÔ·µ»Ø°üº¬ËùĞèÔªÊı¾İÖµµÄÔªÊı¾İÓ³Éä¡£
-¿ÉÒÔ²Î¿¼[PropertiesInstanceConfig](https://github.com/Netflix/eureka/blob/master/eureka-client/src/main/java/com/netflix/appinfo/PropertiesInstanceConfig.java)£¬ÁË½âÌá¹©ÉÏÊö»ùÓÚÅäÖÃµÄÏµÍ³µÄÊ¾ÀıÊµÏÖ¡£
+è¦åŠ¨æ€åœ°åšåˆ°è¿™ä¸€ç‚¹ï¼Œæ‚¨é¦–å…ˆéœ€è¦æä¾›æ‚¨è‡ªå·±çš„è‡ªå®šä¹‰å®ç°[EurekaInstanceConfig](https://github.com/Netflix/eureka/blob/master/eureka-client/src/main/java/com/netflix/appinfo/EurekaInstanceConfig.java)æ¥å£ã€‚ç„¶åå¯ä»¥é‡è½½public Map<String, String> getMetadataMap()æ–¹æ³•ï¼Œä»¥è¿”å›åŒ…å«æ‰€éœ€å…ƒæ•°æ®å€¼çš„å…ƒæ•°æ®æ˜ å°„ã€‚
+å¯ä»¥å‚è€ƒ[PropertiesInstanceConfig](https://github.com/Netflix/eureka/blob/master/eureka-client/src/main/java/com/netflix/appinfo/PropertiesInstanceConfig.java)ï¼Œäº†è§£æä¾›ä¸Šè¿°åŸºäºé…ç½®çš„ç³»ç»Ÿçš„ç¤ºä¾‹å®ç°ã€‚

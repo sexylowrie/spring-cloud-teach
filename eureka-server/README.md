@@ -1,50 +1,50 @@
 ## spring-cloud eureka-server
 
-### ¼ò½é 
+### ç®€ä»‹ 
 
-* ±¾Ê¾ÀıÌá¹©eureka-serverµÄµ¥»úÄ£Ê½ÒÔ¼°¼¯ÈºÄ£Ê½
+* æœ¬ç¤ºä¾‹æä¾›eureka-serverçš„å•æœºæ¨¡å¼ä»¥åŠé›†ç¾¤æ¨¡å¼
 
-* eurekaÒ»ÀÀ²Î¿¼
+* eurekaä¸€è§ˆå‚è€ƒ
 	
 	eureka-glance-cn.md
 	eureka-glance-en.md
 
-*  Ä¬ÈÏÅäÖÃÑĞ¾¿²Î¿¼
+*  é»˜è®¤é…ç½®ç ”ç©¶å‚è€ƒ
 
 	eureka-overriding-default-config.md
 
-### ³£ÓÃÅäÖÃËµÃ÷ 
+### å¸¸ç”¨é…ç½®è¯´æ˜ 
 	
-* µ¥»úÄ£Ê½ ²Î¿¼ÅäÖÃÎÄ¼ş> 
+* å•æœºæ¨¡å¼ å‚è€ƒé…ç½®æ–‡ä»¶> 
 	
-	application-dev.propertoes,µ¥»úÄ£Ê½²»ÏòÆäËû·şÎñ×¢²á
+	application-dev.propertoes,å•æœºæ¨¡å¼ä¸å‘å…¶ä»–æœåŠ¡æ³¨å†Œ
 	
-*  ¼¯ÈºÄ£Ê½ ²Î¿¼ÅäÖÃÎÄ¼ş 
+*  é›†ç¾¤æ¨¡å¼ å‚è€ƒé…ç½®æ–‡ä»¶ 
 
 	application-test1.propertoes,application-test2.propertoes,application-test3.propertoes;
-	Èı×éeurekaÖ®¼äÏà»¥×¢²á
+	ä¸‰ç»„eurekaä¹‹é—´ç›¸äº’æ³¨å†Œ
 
-*  ÅäÖÃ×¢²áÊ±ÏÔÊ¾ipµØÖ·
+*  é…ç½®æ³¨å†Œæ—¶æ˜¾ç¤ºipåœ°å€
 
 	eureka.instance.preferIpAddress=true
 
-*  ÅäÖÃÊµÀıidÎª ip+port
+*  é…ç½®å®ä¾‹idä¸º ip+port
 
 	eureka.instance.instanceId=${spring.cloud.client.ipAddress}:${server.port}
 
-*  ÎŞÃÜÂëÊ±ÅäÖÃ
+*  æ— å¯†ç æ—¶é…ç½®
 
 	eureka.client.serviceUrl.defaultZone=http://${eureka.instance.hostname}:8080/eureka/,
 	http://${eureka.instance.hostname}:8081/eureka/
 
 
-*  ¿ªÆôsecurityÅäÖÃ,ÅäÖÃÓÃ»§ÃûÒÔ¼°ÃÜÂë£¨ĞèÒªÒıÈësecurityÏà¹Øjar°ü£©
+*  å¼€å¯securityé…ç½®,é…ç½®ç”¨æˆ·åä»¥åŠå¯†ç ï¼ˆéœ€è¦å¼•å…¥securityç›¸å…³jaråŒ…ï¼‰
 
 	security.basic.enabled=true
 	security.user.name=apollo
 	security.user.password=1234qwer
 
-*  ÑéÖ¤ÃÜÂëÊ±ÅäÖÃ
+*  éªŒè¯å¯†ç æ—¶é…ç½®
 
 	eureka.client.serviceUrl.defaultZone=http://apollo:1234qwer@${eureka.instance.hostname}:8080/eureka/,
 	http://apollo:1234qwer@${eureka.instance.hostname}:8081/eureka/
