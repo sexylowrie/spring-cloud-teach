@@ -38,7 +38,7 @@ public class Application {
 		return new RestTemplate();
 	}
 	/**
-	 * 	ÇëÇó£ºhttp://localhost:9011/trade
+	 * 	http://localhost:9011/trade
 	 * zipkin-clientA --> zipkin-clientB
 	 * @return
 	 */
@@ -49,7 +49,7 @@ public class Application {
 	}
 
 	/**
-	 * 	ÇëÇó£ºhttp://localhost:9012/refund
+	 * 	http://localhost:9012/refund
 	 * zipkin-clientB --> zipkin-clientA
 	 * @return
 	 */
