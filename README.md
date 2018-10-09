@@ -1,2 +1,2 @@
-## spring-cloud-tech
-tech you something about java
+## spring-cloud-teach
+teach you something about java
