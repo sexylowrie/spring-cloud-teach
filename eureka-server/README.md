@@ -13,7 +13,6 @@
 * eureka一览参考
 	
 	eureka-glance-cn.md
-	eureka-glance-en.md
 
 *  默认配置研究参考
 
