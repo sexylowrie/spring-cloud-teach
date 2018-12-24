@@ -2,25 +2,44 @@
 
 ### 简介 
 
-* 配置中心客户端示例
+配置中心客户端示例
 
-### 单机直连配置 
+### 1.单机直连配置 
 
-参考 一下配置，直接启动即可；此方式直接从配置中心获取相关配置
+参考以下配置
 
-	application-dev.properties
+	bootstrap-dev.properties
 
-### 集群高可用配置
+### 2.注册到eureka单机
 
-参考一下配置，部署多个应用即可；此方式是将自己注册到注册中心，然后从注册中心（eureka-server）获取配置中心（config-server）信息，进而获取相关配置
-	  
-	1.需要本应用注册到eureka-server集群，所以pom文件需要引入
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-eureka</artifactId>
-		</dependency>
-		
-	2.application-test.properties
+参考以下配置
+
+    bootstrap-test.properties
+
+### 3.注册eureka集群
+
+参考以下配置，部署多个应用即可；
+
+    bootstrap-prod.properties
 	
-	3.Application类新增@EnableEurekaClient注解 
+### TIPS
+    
+    方式1直接从配置中心获取相关配置
+    
+   	方式2,方式3均是将自己注册到注册中心，然后从注册中心（eureka-server）获取配置中心（config-server）信息，进而获取相关配置
+   	
+   	方式2注册的eureka-server为单机部署
+   	
+   	方式3注册的eureka-server为集群部署
+   	
+    方式2，方式3都需要执行进行以下配置
+        
+        1.pom文件引入
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        
+        2.Application类新增@EnableEurekaClient注解 
+   	
 

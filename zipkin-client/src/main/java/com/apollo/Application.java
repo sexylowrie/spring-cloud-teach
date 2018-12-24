@@ -68,7 +68,7 @@ public class Application {
 	@RequestMapping("/deal/refund")
 	public String dealRefund() {
 		LOGGER.info("deal refund request");
-		return "refound success";
+		return "refund success";
 	}
 
 }
