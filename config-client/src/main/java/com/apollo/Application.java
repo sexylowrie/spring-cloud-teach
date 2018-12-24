@@ -22,8 +22,13 @@ public class Application {
 	
 	@Value("${foo}")
 	private String foo;
-	
-	@RequestMapping("/foo")
+
+	@RequestMapping("/1")
+	public String foo1() {
+		return this.foo;
+	}
+
+	@RequestMapping("/2")
 	public String foo() {
 		return this.foo;
 	}

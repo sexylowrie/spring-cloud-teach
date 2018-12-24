@@ -1,5 +1,11 @@
 ## spring-cloud eureka-server
 
+### 说明
+
+* 开发 参考配置文件 application-dev
+* 测试 参考配置文件 application-test
+* 生产 参考配置文件 application-prod1,application-prod2,application-prod3
+
 ### 简介 
 
 * 本示例提供eureka-server的单机模式以及集群模式

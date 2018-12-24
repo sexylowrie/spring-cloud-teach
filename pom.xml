@@ -10,5 +10,7 @@
   	<module>config-client</module>
   	<module>zipkin-server</module>
   	<module>zipkin-client</module>
+    <module>zuul-server</module>
+    <module>zuul-client</module>
   </modules>
 </project>
