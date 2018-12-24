@@ -19,7 +19,7 @@ public class Application {
     @Value("${hello}")
     private String hello;
 
-    @RequestMapping
+    @RequestMapping(value = "/hello")
     public String hello() {
         return this.hello;
     }
