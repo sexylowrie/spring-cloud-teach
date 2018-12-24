@@ -8,6 +8,8 @@
 		<version>0.0.1</version>
 	</parent>
 	<artifactId>zipkin-client</artifactId>
+	<name>zipkin-client</name>
+	<description>链路追踪客户端demo</description>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

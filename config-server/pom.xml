@@ -8,6 +8,8 @@
 		<version>0.0.1</version>
 	</parent>
 	<artifactId>config-server</artifactId>
+	<name>config-server</name>
+	<description>配置中心</description>
 	<dependencies>
 		<!-- add config server -->
 		<dependency>

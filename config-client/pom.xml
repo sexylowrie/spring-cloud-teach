@@ -8,6 +8,8 @@
 		<version>0.0.1</version>
 	</parent>
 	<artifactId>config-client</artifactId>
+	<name>config-client</name>
+	<description>配置客户端</description>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
