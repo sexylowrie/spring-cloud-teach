@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.apollo</groupId>
-		<artifactId>tech</artifactId>
+		<artifactId>teach</artifactId>
 		<version>0.0.1</version>
 	</parent>
 	<artifactId>zipkin-client</artifactId>
